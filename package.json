@@ -1,0 +1,49 @@
+{
+  "name": "grunt-aem-sling-dev",
+  "description": "Grunty AEM Sling dev workflow",
+  "version": "0.1.0",
+  "homepage": "https://github.com/dherges/grunt-aem-sling-dev",
+  "author": {
+    "name": "David Herges",
+    "email": "david@spektrakel.de"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dherges/grunt-aem-sling-dev.git"
+  },
+  "bugs": {
+    "url": "https://github.com/dherges/grunt-aem-sling-dev/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/dherges/grunt-aem-sling-dev/blob/master/LICENSE-MIT"
+    }
+  ],
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "keywords": [
+    "gruntplugin",
+    "AEM",
+    "Adobe",
+    "Sling",
+    "Apache",
+    "Adobe AEM",
+    "Apache Sling"
+  ],
+  "main": "Gruntfile.js",
+  "dependencies": {
+    "well-aem-sling-dev": "github:dherges/well-aem-sling-dev#master",
+    "vinyl": "^1.1.1"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "grunt": "^1.0.1",
+    "grunt-mocha-test": "^0.12.7",
+    "mocha": "^2.4.5"
+  },
+  "peerDependencies": {
+    "grunt": ">=0.4.0"
+  }
+}
